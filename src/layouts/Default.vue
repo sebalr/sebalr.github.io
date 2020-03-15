@@ -33,16 +33,20 @@ export default {
   display: flex;
   flex-direction: row;
   flex: 1;
+  min-height: 0;
 }
 
 .sidebar {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
+  align-items: stretch;
 }
 
 .main-content {
   display: flex;
   flex: 1;
+  align-items: stretch;
+  overflow: auto;
 }
 </style>
