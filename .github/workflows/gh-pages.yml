@@ -5,8 +5,6 @@ on:
     branches:
       - dev  # default branch
 
-publish_branch: master  # deploying branch
-
 jobs:
   build-deploy:
     runs-on: ubuntu-18.04
