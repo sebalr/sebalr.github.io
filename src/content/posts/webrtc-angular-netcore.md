@@ -1,7 +1,8 @@
 ---
-title: Video call with WebRTC Angular and ASP.NET Core
+title: "Video call with WebRTC Angular and ASP.NET Core"
 published: true
-description: How to build a basic video call app with Angular and webrtc and signalR as signaling channel.
+description: "How to build a basic video call app with Angular and webrtc and signalR as signaling channel."
+date: 2019-05-23
 tags: Angular,.NET Core, signalR, webrtc
 ---
 

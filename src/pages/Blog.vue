@@ -1,14 +1,39 @@
 <template>
   <Layout>
     <h1>About us</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
+    <section class="posts">
+      <PostItem v-for="edge in $page.allPost.edges" :key="edge.node.id" :post="edge.node"></PostItem>
+    </section>
   </Layout>
 </template>
 
 <script>
+import PostItem from "~/components/PostItem.vue";
+
 export default {
+  components: {
+    PostItem
+  },
   metaInfo: {
-    title: 'About us'
+    title: "About us"
+  }
+};
+</script>
+
+<page-query>
+query {
+  allPost {
+    totalCount
+    edges {
+      node {
+        id
+        title
+        description
+        date (format: "D MMMM YYYY")
+        path
+        tags
+      }
+    }
   }
 }
-</script>
+</page-query>
