@@ -76,3 +76,40 @@ a.active--exact.active {
   background-color: $primary;
   color: #fff;
 }
+
+.container {
+  position: relative;
+  background: $primary;
+  height: 50vh;
+}
+
+.wave {
+  position: absolute;
+  height: 250px;
+  width: 100%;
+  background: $primary;
+  bottom: 0;
+}
+
+.wave::before,
+.wave::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+}
+
+.wave::before {
+  width: 53.5%;
+  height: 110%;
+  background-color: #fff;
+  right: 0;
+  top: 60%;
+}
+.wave::after {
+  width: 53.5%;
+  height: 100%;
+  background-color: $primary;
+  left: 0;
+  top: 40%;
+}
