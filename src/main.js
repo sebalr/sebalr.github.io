@@ -1,7 +1,7 @@
+import '~/assets/styles.scss'
 import DefaultLayout from '~/layouts/Default.vue'
 import Buefy from 'buefy'
 
-import '~/assets/styles.scss'
 
 
 export default function (Vue, { router, head, isClient }) {
