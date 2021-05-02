@@ -20,22 +20,20 @@
   "author": "Sebastian Larrieu Romeo <sebastian.larrieu@gmail.com>",
   "license": "MIT",
   "keywords": [
+    "sebastian",
+    "larrieu",
+    "software",
+    "engineer",
     "gatsby",
     "graphql",
-    "netlify",
-    "netlify-cms",
     "pagination",
     "categories",
     "tags",
-    "prismjs",
     "static",
     "lost",
     "blog",
     "minimal",
-    "react",
-    "theme",
-    "starter",
-    "disqus"
+    "react"
   ],
   "dependencies": {
     "@sentry/gatsby": "^6.2.5",
