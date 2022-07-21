@@ -1,7 +1,7 @@
 const getContactHref = (name: string, contact: string) => {
   const hrefs: { [key: string]: string } = {
+    email: `mailto:${contact}`,
     github: `https://github.com/${contact}`,
-    gitlab: `https://www.gitlab.com/${contact}`,
     linkedin: `https://www.linkedin.com/in/${contact}`,
   };
 
