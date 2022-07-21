@@ -16,5 +16,4 @@ test("getIcon", () => {
   expect(getIcon("telegram")).toEqual(ICONS.telegram);
   expect(getIcon("linkedin")).toEqual(ICONS.linkedin);
   expect(getIcon("instagram")).toEqual(ICONS.instagram);
-  expect(getIcon("soundcloud")).toEqual(ICONS.soundcloud);
 });

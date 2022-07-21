@@ -24,11 +24,11 @@
   "author": {
     "name": "Sebastian Larrieu Romeo",
     "photo": "/photo.jpg",
-    "bio": "I'm a Software Engineer specialiced in Angular. I'm available for freelance jobs an consulting.",
+    "bio": "I'm a Software Engineer specialiced in Angular. I'm available for freelance jobs and consulting.",
     "contacts": {
       "email": "larrieu.sebastian@gmail.com",
-      "github": "https://github.com/sebalr",
-      "linkedin": "https://www.linkedin.com/in/slarrieu/"
+      "github": "sebalr",
+      "linkedin": "slarrieu"
     }
   }
 }
