@@ -1,46 +1,34 @@
 {
-  "title": "Blog by John Doe",
-  "url": "https://lumen.alxshelepenok.com",
-  "subtitle": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  "title": "Sebastian Larrieu Romeo - Personal site",
+  "url": "https://sebalr.github.io",
+  "subtitle": "Software Engineer specialiced in Angular.",
   "copyright": "© All rights reserved.",
-  "googleAnalyticsId": "UA-73379983-2",
+  "googleAnalyticsId": "",
   "disqusShortname": "",
   "postsLimit": 4,
   "pathPrefix": "/",
   "menu": [
     {
-      "label": "Articles",
-      "path": "/"
-    },
-    {
       "label": "About me",
       "path": "/pages/about"
     },
     {
-      "label": "Contact me",
+      "label": "Articles",
+      "path": "/"
+    },
+    {
+      "label": "Hire",
       "path": "/pages/contacts"
     }
   ],
   "author": {
-    "name": "John Doe",
+    "name": "Sebastian Larrieu Romeo",
     "photo": "/photo.jpg",
-    "bio": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "bio": "I'm a Software Engineer specialiced in Angular. I'm available for freelance jobs an consulting.",
     "contacts": {
-      "rss": "",
-      "email": "",
-      "github": "#",
-      "facebook": "#",
-      "telegram": "#",
-      "twitter": "#",
-      "linkedin": "#",
-      "instagram": "#",
-      "line": "",
-      "weibo": "",
-      "gitlab": "",
-      "medium": "",
-      "youtube": "",
-      "codepen": "",
-      "soundcloud": ""
+      "email": "larrieu.sebastian@gmail.com",
+      "github": "https://github.com/sebalr",
+      "linkedin": "https://www.linkedin.com/in/slarrieu/"
     }
   }
 }
